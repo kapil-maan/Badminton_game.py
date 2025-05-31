@@ -7,10 +7,7 @@ Challenge a cunning AI opponent in this fast-paced 2D Badminton game built with 
 
 Challenge a cunning AI opponent in this fast-paced 2D Badminton game built with **Python** and **Pygame**!  
 Experience arcade-style shuttlecock action, develop your strategy, and aim for victory.  
-_This project was iteratively developed with the assistance of **Amazon Q CLI**._
-
-![Gameplay Screenshot](screenshots/gameplay_screenshot.png)  
-> 🖼️ _Tip: Replace the above with an actual screenshot or animated GIF for a better preview._
+This project was iteratively developed with the assistance of **Amazon Q CLI**.
 
 ---
 
@@ -26,45 +23,32 @@ _This project was iteratively developed with the assistance of **Amazon Q CLI**.
   - Tracks shuttlecock trajectory
   - Adds variation to return shots
   - Realistic reaction time for fairness
-- 🏐 **Realistic Shuttlecock Physics**
-  - Arc trajectory and gravity
-  - Basic air resistance
 - 🎯 **Accurate Collision Detection**
   - Racket–shuttle, shuttle–net, and court boundaries
 - 🏓 **Serving & Scoring**
   - Serving rules and transitions
   - On-screen score display
 - 🔄 **Reset & Restart** — Press `R` after game over.
-- 🔊 **Sound Effects (Optional)** — Includes placeholders for shuttle hits, net sounds, and scoring.
+
 
 ---
 
 ## 🗂️ File Structure
 
 ```plaintext
-badminton_game/
-├── main.py                  # Main game script (or badminton_game.py)
+badminton game.py/
+├── Badminton_game.py                  # Main game script (or badminton_game.py)
 ├── README.md                # Project README
-├── requirements.txt         # Python dependencies
-│
-├── assets/
-│   ├── sounds/
-│   │   ├── hit_shuttle.wav
-│   │   ├── point_scored.wav
-│   │   └── net_hit.wav
-│   └── images/
-│       ├── shuttlecock.png
-│       └── player_sprite.png
-│
-└── screenshots/
-    └── gameplay_screenshot.png
+├── prompts.txt         # Prompt for Q Cli
+
+
 ````
 
 ---
 
 ## 🧰 Requirements
 
-* Python 3.7+
+* Python or Python3 
 * [Pygame](https://www.pygame.org/) (`pip install pygame`)
 
 ---
@@ -74,20 +58,16 @@ badminton_game/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/<YourGitHubUsername>/BadmintonPy.git
+   git clone https://github.com/kapil-maan/Badminton game.py.git
    ```
 
 2. **Navigate into the project folder**
 
    ```bash
-   cd BadmintonPy
+   cd Badminton game.py
    ```
 
 3. **Install dependencies**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
 
    *or just:*
 
@@ -98,10 +78,8 @@ badminton_game/
 4. **Run the game**
 
    ```bash
-   python main.py
+   python3 Badminton_game.py
    ```
-
-   *or `python badminton_game.py` depending on the filename.*
 
 ---
 
@@ -125,7 +103,7 @@ badminton_game/
 
   * Opponent hits net or out of bounds
   * You hit a clean shot they can’t return
-* **Win Condition**: First to the defined score (e.g., 11 or 21) wins!
+* **Win Condition**: First to the defined score 11 wins!
 
 ---
 
@@ -166,22 +144,11 @@ A key aspect of this project was rapid iteration with **Amazon Q CLI**:
 
 ## 🙌 Credits
 
-* 👨‍💻 **Developer:** \[Your Name / Alias]
+* 👨‍💻 **Developer:**  Kapil Kumar
 * 🎯 **Concept:** Arcade-style badminton game
 * 🧠 **AI Assistance:** Amazon Q CLI
-* 💖 **Thanks:** [Pygame Community](https://www.pygame.org/wiki/about)
+* 💖 **Thanks:** 
 
 ---
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-See [`LICENSE.md`](LICENSE.md) for more info.
-
----
-
-```
-
 
 Happy coding! 🏸💻
-```
